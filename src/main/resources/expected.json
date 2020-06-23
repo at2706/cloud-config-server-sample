@@ -1,0 +1,23 @@
+{
+  "name": "client-app",
+  "profiles": [
+    "dev"
+  ],
+  "label": null,
+  "version": null,
+  "state": null,
+  "propertySources": [
+    {
+      "name": "classpath:/client-app/application.yml",
+      "source": {
+        "client-property": "test2"
+      }
+    },
+    {
+      "name": "classpath:common/application.properties",
+      "source": {
+        "common.property": "test"
+      }
+    }
+  ]
+}
